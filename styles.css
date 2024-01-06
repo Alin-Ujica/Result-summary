@@ -1,0 +1,408 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Hanken Grotesk';
+}
+
+body {
+    background-color: #ECF2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.square_1 {
+    width: 330px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 30px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.result {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.score1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.score span {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.greet {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.description {
+    width: 230px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.square_2 {
+    width: 330px;
+    height: 480px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.summary {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.reaction {
+    width: 298px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reaction_1 {
+    display: flex;
+    align-items: center;
+}
+
+.reaction_1:nth-child(1) {
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon1 {
+    margin-right: 5px;
+}
+
+p span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.memory {
+    width: 298px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memory_1 {
+    display: flex;
+    align-items: center;
+}
+
+.memory_1:nth-child(1) {
+    color: #FFB21E;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon1 {
+    margin-right: 5px;
+}
+
+p span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.verbal {
+    width: 298px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verbal_1 {
+    display: flex;
+    align-items: center;
+}
+
+.verbal_1:nth-child(1) {
+    color: hsl(166, 100%, 37%);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon1 {
+    margin-right: 5px;
+}
+
+p span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.visual {
+    width: 298px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visual_1 {
+    display: flex;
+    align-items: center;
+}
+
+.visual_1:nth-child(1) {
+    color: hsl(234, 85%, 45%);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.icon1 {
+    margin-right: 5px;
+}
+
+p span {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.continue {
+    text-decoration: none;
+    padding: 26px 127px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    background-image: linear-gradient(#303B59, #303B59);
+    color: white;
+    transition: background-image 2s ease-out;
+}
+
+.continue:hover {
+    background-image: linear-gradient(to right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media(max-width:775px) {
+
+    body {
+        background-color: #ECF2FF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .square_1 {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        padding: 20px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .square_2 {
+        width: 300px;
+        height: 450px;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .reaction,
+    .visual,
+    .verbal,
+    .memory {
+        width: 278px;
+        height: 36px;
+        padding: 10px;
+    }
+
+    .continue {
+        text-decoration: none;
+        padding: 26px 117px;
+    }
+}
